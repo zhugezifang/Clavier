@@ -17,7 +17,7 @@
 
 基于英语的字母使用频率和字母组合（如 th，er，in，ed 等）的使用频率，设计音名与字母之间的对应关系，使之听起来较为符合某一种特定的音乐风格。在输入框中直接进行英文输入，即可随输入听到相应音乐。
 
-目前提供了四种音乐风格可供选择，分别是古典与浪漫时期的 Major Scale，印象派的 Whole Tone Scale（这个用起来真的有 Debussy 的味道），现代主义中代表大佬 Schoenburg 的 Chromatic Scale，和远东风格的 Pentatonic Scale。
+目前提供了四种音乐风格可供选择，分别是古典与浪漫时期的 Major Scale，印象派的 Whole Tone Scale（这个用起来真的有 Debussy 的味道），现代主义中代表大佬 Schoenberg 的 Chromatic Scale，和远东风格的 Pentatonic Scale。
 
 
 ## 钢琴界面效果
