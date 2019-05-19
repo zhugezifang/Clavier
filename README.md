@@ -1,8 +1,3 @@
-[原文链接](https://github.com/WarpPrism/Blog/issues/42)
-
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-
-Hate 996? Come Here & Relax~
 
 最近以双鸭山大佬的 Auto Piano 为基础做了一款钢琴类web应用，名字定为键盘（Clavier）。Clavier 选自 Bach 的 Well-tempered Clavier，键盘不仅仅是计算机的键盘⌨️，也可以是乐器的键盘🎹。是一款丰富输入体验的服务设计试水项目。
 
