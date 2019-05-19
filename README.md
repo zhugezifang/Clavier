@@ -5,7 +5,7 @@
 
 ## 项目简介
 
-双鸭山大佬原项目地址：
+双鸭山大佬原项目，真的特别出色：
 
 ![autopiano.png](https://user-gold-cdn.xitu.io/2019/4/1/169d81ff4a11e634?w=1318&h=850&f=png&s=579420)
 
