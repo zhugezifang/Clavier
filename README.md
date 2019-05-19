@@ -1,5 +1,5 @@
 
-最近以双鸭山大佬的 Auto Piano 为基础做了一款钢琴类web应用，名字定为键盘（Clavier）。Clavier 选自 Bach 的 Well-tempered Clavier，键盘不仅仅是计算机的键盘⌨️，也可以是乐器的键盘🎹。是一款丰富输入体验的服务设计试水项目。
+最近以双鸭山大佬的 Auto Piano 为基础做了一款钢琴类web应用，名字定为键盘（Clavier）。Clavier 选自 Bach 的 Well-tempered Clavier，键盘不仅仅是计算机的键盘⌨️，也可以是乐器的键盘🎹,是一款丰富输入体验的服务设计试水项目。
 
 此文权当作该项目的总结和分享~
 
