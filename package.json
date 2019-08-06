@@ -1,8 +1,8 @@
 {
-  "name": "onepiano",
-  "version": "1.0.0",
-  "description": "One Piano",
-  "author": "ZhouJihao <249662605@qq.com>",
+  "name": "clavier",
+  "version": "1.1.0",
+  "description": "Play Piano on Web by Some classical route.",
+  "author": "ZhangDubhe <htzhang@dubheee.cn>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

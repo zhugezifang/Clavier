@@ -7,6 +7,7 @@
     <section class="page-section-wrap">
       <textarea class="input-textarea" v-model="textStore" placeholder="input your text here!"></textarea>
     </section>
+    <button>自动播放试试</button>
     <p class="input-tips">Word 'Clavier' extracted from Well-tempered Claviar by Bach. Not only the keyboard ⌨️ but the key board 🎹 Type something here, and listen the music for your words.</p>
     <PageFooter></PageFooter>
   </div>
@@ -93,9 +94,11 @@ export default {
 @textdark: #2c3e50;
 
 .page-home { width: 100%; min-width: 1080px; min-height: 100%; padding: 1px; padding-bottom: 150px; font-family: 'Avenir', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: @textdark;  position: absolute; top: 0; left: 0;
-  .app-bg { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -100; opacity: 0.5; background: url('../../static/imgs/bg2.jpg') no-repeat; background-size: cover; }
+  .app-bg { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -100; opacity: 0.5;}
   .page-section-wrap { width: 100%; padding: 0px; display: flex; align-items: center; justify-content: space-around; }
  .input-tips {
+   margin-top: 30px;
+  
     text-align: center;
     color: #999999;
     font-size: 12px;
