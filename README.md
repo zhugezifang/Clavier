@@ -5,8 +5,14 @@
 
 ## 项目简介
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/337214345" width="640" height="359" frameborder="0" allowfullscreen></iframe>
+
 体验地址：https://mysteriousming.github.io/Clavier/dist/#/
+
+项目演示：https://vimeo.com/337214345
+
 项目说明：https://www.suncreativesolution.com/#/project/clavier
+
 
 架构来源于双鸭山大佬的auto piano。
 
