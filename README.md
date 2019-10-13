@@ -6,7 +6,7 @@
 ## 项目简介
 
 
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://vimeo.com/337214345)
+[![Watch the video](https://github.com/MysteriousMing/Clavier/blob/master/Vimeo/Screen%20Shot%202019-10-13%20at%2019.58.36.png)](https://vimeo.com/337214345)
 
 体验地址：https://mysteriousming.github.io/Clavier/dist/#/
 
