@@ -6,7 +6,7 @@
 ## 项目简介
 
 
-[![Watch the video](https://player.vimeo.com/video/337214345)
+[![Watch the video](https://player.vimeo.com/video/337214345)]
 
 体验地址：https://mysteriousming.github.io/Clavier/dist/#/
 
