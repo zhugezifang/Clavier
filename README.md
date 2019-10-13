@@ -5,7 +5,8 @@
 
 ## 项目简介
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/337214345" width="640" height="359" frameborder="0" allowfullscreen></iframe>
+
+![clavier](https://player.vimeo.com/video/337214345)
 
 体验地址：https://mysteriousming.github.io/Clavier/dist/#/
 
