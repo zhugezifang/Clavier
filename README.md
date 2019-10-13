@@ -5,6 +5,11 @@
 
 ## 项目简介
 
+体验地址：https://mysteriousming.github.io/Clavier/dist/#/
+项目说明：https://www.suncreativesolution.com/#/project/clavier
+
+架构来源于双鸭山大佬的auto piano。
+
 双鸭山大佬原项目，真的特别出色：
 
 ![autopiano.png](https://user-gold-cdn.xitu.io/2019/4/1/169d81ff4a11e634?w=1318&h=850&f=png&s=579420)
