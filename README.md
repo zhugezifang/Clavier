@@ -8,7 +8,7 @@
 
 [![Watch the video](https://github.com/MysteriousMing/Clavier/blob/master/Vimeo/Screen%20Shot%202019-10-13%20at%2019.58.36.png)](https://vimeo.com/337214345)
 
-体验地址：https://mysteriousming.github.io/Clavier/dist/#/
+体验地址：https://mysteriousming.github.io/Clavier/#/
 
 项目演示：https://vimeo.com/337214345
 
@@ -61,4 +61,6 @@ https://codepen.io/search/pens?q=piano&page=1&order=popularity&depth=everything
 
 再次感谢双鸭山大佬 晶体世界～
 
+## CHANGELOG
+更新了 github actions 的自动打包。
 
