@@ -53,7 +53,7 @@ https://codepen.io/search/pens?q=piano&page=1&order=popularity&depth=everything
 
 ## 最后
 
-> 最后再贴一下体验地址： https://mysteriousming.github.io/Clavier/dist/#/
+> 最后再贴一下体验地址： https://mysteriousming.github.io/Clavier/#/
 
 欢迎体验，分享。
 
