@@ -2,12 +2,15 @@
   <div class="page-home">
     <div class="app-bg"></div>
 
-    <Piano></Piano>
+    <Piano @changeNote="changeAudioType"></Piano>
 
     <section class="page-section-wrap">
       <textarea class="input-textarea" v-model="textStore" placeholder="input your text here!"></textarea>
     </section>
     <p class="input-tips">Word 'Clavier' extracted from Well-tempered Claviar by Bach. Not only the keyboard ⌨️ but the key board 🎹 Type something here, and listen the music for your words.</p>
+    <section>
+       <AudioPlayer :para-text="textStore" :type="audioType"></AudioPlayer>
+    </section>
     <PageFooter></PageFooter>
   </div>
 </template>
@@ -18,13 +21,17 @@ import Piano from '@/components/Piano'
 import PageFooter from '@/components/Footer'
 import EasyScore from '@/components/EasyScore'
 import DemoScore from '@/components/DemoScore'
+import AudioPlayer from '@/pages/audio/audio'
+
+import { DemoText } from 'config/' //  DemoText.para
 
 export default {
   name: 'Home',
   data() {
     return {
       percent: 0,
-      textStore: ''
+      textStore: DemoText.para,
+      audioType: 'notes_major'
     }
   },
   mounted() {
@@ -67,6 +74,10 @@ export default {
     this.handleAutoPianoload(100)
   },
   methods: {
+    changeAudioType(type) {
+      console.log(type)
+      this.audioType = type
+    },
     handleAutoPianoload(data) {
       var vm = this;
       vm.percent = data;
@@ -76,13 +87,17 @@ export default {
           $('#preloadAudio').remove()
         }, 700)
       }
+    },
+    autoPlayTry () {
+      this.$router.push({ name: 'Audio'})
     }
   },
   components: {
     Piano,
     PageFooter,
     EasyScore,
-    DemoScore
+    DemoScore,
+    AudioPlayer
   }
 }
 </script>
@@ -93,9 +108,16 @@ export default {
 @textdark: #2c3e50;
 
 .page-home { width: 100%; min-width: 1080px; min-height: 100%; padding: 1px; padding-bottom: 150px; font-family: 'Avenir', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: @textdark;  position: absolute; top: 0; left: 0;
-  .app-bg { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -100; opacity: 0.5; background: url('../../static/imgs/bg2.jpg') no-repeat; background-size: cover; }
+  .app-bg { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -100; opacity: 0.5;}
   .page-section-wrap { width: 100%; padding: 0px; display: flex; align-items: center; justify-content: space-around; }
+  .page-section-wrap button {
+    margin: 12px 6px 4px;
+    padding: 10px 16px;
+    border-radius: 12px;
+  }
  .input-tips {
+   margin-top: 30px;
+  
     text-align: center;
     color: #999999;
     font-size: 12px;
