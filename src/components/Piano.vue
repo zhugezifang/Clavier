@@ -1,7 +1,7 @@
 <template>
   <div class="onepiano-app-wrap">
     <div class="trade-mark">
-      <i class="icon-piano"></i>
+      Virtual Piano
       <div class="trade-mark-txt"></div>
     </div>
     <div class="piano-part">
