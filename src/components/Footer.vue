@@ -24,7 +24,11 @@
 </style>
 
 
-<h3>What is a Virtual Piano?</h3>
+
+
+<template>
+
+  <h3>What is a Virtual Piano?</h3>
 <p>A Virtual Piano is an online tool that allows you to play piano right from your computer or mobile device. You can use your keyboard to play notes, just like a real piano. It's a fun way to create music and practice without needing a physical piano!
 </p>
 
@@ -57,8 +61,6 @@ The Virtual Piano offers a variety of instrument sounds. You can choose from pia
 <h3>Can beginners use the Virtual Piano?</h3>
 Yes, beginners can easily use the Virtual Piano! The design is simple and user-friendly, making it perfect for anyone who wants to learn and have fun playing music.
 
-
-<template>
   <div class="page-footer">
     <a href="https://www.suncreativesolution.com/#/project/clavier" target="_blank" class="record-info">By Sun</a>
     <a href="https://github.com/WarpPrism/AutoPiano" class="record-info">&copy;Script credit: 晶体世界</a>
