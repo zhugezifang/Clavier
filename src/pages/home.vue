@@ -1,7 +1,6 @@
 <template>
   <div class="page-home">
     <div class="app-bg"></div>
-    <h1>Virtual Piano - Free Play Online Piano Keyboard</h1>
     <Piano @changeNote="changeAudioType"></Piano>
 
     <section class="page-section-wrap">
@@ -12,6 +11,7 @@
        <AudioPlayer :para-text="textStore" :type="audioType"></AudioPlayer>
     </section>
     <div id="faqId">
+    <h1>Virtual Piano - Free Play Online Piano Keyboard</h1>
     <h2>FAQ About Virtual Piano</h2>
     <h3>What is a Virtual Piano?</h3>
     <p>A Virtual Piano is an online tool that allows you to play piano right from your computer or mobile device. You can use your keyboard to play notes, just like a real piano. It's a fun way to create music and practice without needing a physical piano!
